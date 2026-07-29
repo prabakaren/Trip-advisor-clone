@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trip Advisor UI Clone — Practice Project</title>
+    <meta name="description" content="A front-end practice project recreating the Tripadvisor homepage UI for learning purposes. Not affiliated with, endorsed by, or connected to Tripadvisor, Inc.">
+
+    <link rel="stylesheet" href="style.css">
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="demo-banner">
+        Practice project built for learning front-end development — not affiliated with or endorsed by Tripadvisor, Inc.
+    </div>
+
+    <div class="navbar">
+        <div class="navbar__logo">
+            <img src="images/tripadvisorlogo.png">
+        </div>
+
+        <div class="navbar__title">
+            <h2>Tripadvisor</h2>
+        </div>
+
+        <div class="navbar__s2">
+            <button class="ai-btn">
+
+                Plan with AI
+            </button>
+            <h4>Discover</h4>
+            <h4>Review</h4>
+            <h4>More</h4>
+        </div>
+
+        <div class="navbar__s3">
+            <div class="currency">
+                <i class="fa-solid fa-globe"></i>
+                <span class="separator"></span>
+                <h4>INR</h4>
+            </div>
+
+            <button class="signin">Sign in</button>
+        </div>
+    </div>
+
+
+    <div class="main">
+
+        <div class="main__heading">
+            <h1>Where to?</h1>
+        </div>
+
+
+        <div class="tabs">
+
+            <input type="radio" name="tab" id="t1" checked>
+            <label for="t1">
+                <i class="fa-solid fa-house"></i>
+                Search All
+            </label>
+
+            <input type="radio" name="tab" id="t2">
+            <label for="t2">
+                <i class="fa-solid fa-camera"></i>
+
+                Things To Do
+            </label>
+
+            <input type="radio" name="tab" id="t3">
+            <label for="t3">
+                <i class="fa-solid fa-bed"></i>
+
+                Hotels
+            </label>
+
+            <input type="radio" name="tab" id="t4">
+            <label for="t4">
+                <i class="fa-solid fa-utensils"></i>
+                Restaurants
+            </label>
+
+        </div>
+
+
+        <div class="main__search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="Places to go, things to do, hotels">
+            <button class="ai">Ask AI</button>
+            <button class="search">Search</button>
+        </div>
+
+    </div>
+    <div class="bigbox__outer">
+        <div class="bigbox">
+            <img src="images/chinatirp.png" class="bigbox__img">
+        </div>
+
+
+        <div class="bigbox__text">
+            <h1>Find things to do for everything you’re into</h1>
+            <p>Browse 400,000+ experiences and book with us.</p>
+            <button class="click">Book Now</button>
+        </div>
+    </div>
+
+    <div class="interest__container">
+        <h3>Find things to do by interest</h3>
+        <p>Whatever you're into, we’ve got it</p>
+
+        <div class="interest__container__imgs">
+
+            <div class="card">
+                <img src="images/outdoor.jpg">
+                <h2>Outdoors</h2>
+            </div>
+
+            <div class="card">
+                <img src="images/scipy.png">
+                <h2>Food</h2>
+            </div>
+
+            <div class="card">
+                <img src="images/culture.jpg">
+                <h2>Culture</h2>
+            </div>
+
+            <div class="card">
+                <img src="images/water.jpeg">
+                <h2>Water</h2>
+            </div>
+
+        </div>
+    </div>
+    <div class="inspiration-section">
+
+        <div class="inspiration">
+            <h1>Inspiration to get you going</h1>
+
+            <div class="inspiration__row">
+
+                <div class="inspiration__cards">
+                    <div class="img-box">
+                        <img src="images/medi.png">
+                        <div class="heart">♡</div>
+                    </div>
+                    <h2>9 cool-weather summer vacations to book now</h2>
+                </div>
+
+                <div class="inspiration__cards">
+                    <div class="img-box">
+                        <img src="images/mount.png">
+                        <div class="heart">♡</div>
+                    </div>
+                    <h2>Top Most Beautiful Viewpoints</h2>
+                </div>
+
+                <div class="inspiration__cards">
+                    <div class="img-box">
+                        <img src="images/hotal.png">
+                        <div class="heart">♡</div>
+                    </div>
+                    <h2>The world’s most unique hotels, revealed</h2>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <div class="water-section">
+
+        <div class="water">
+            <h3>Just add water</h3>
+            <p>Surfing, jet-skiing, boating, and beyond</p>
+
+            <div class="water__row">
+
+
+                <div class="water__cards">
+                    <div class="img-box">
+                        <img src="images/Galligoraft.png">
+                        <div class="heart">♡</div>
+                    </div>
+
+                    <span class="location">Murillio de Gallego</span>
+
+                    <h4>
+                        Murillo de Gallego Rafting in Gallego River - Spain,
+                        Murillo de Gallego - UR Pirineos
+                    </h4>
+
+                    <div class="rating">
+                        4.9 <span>●●●●●</span> (146)
+                    </div>
+
+                    <div class="price">from ₹5,514 per adult</div>
+                </div>
+
+
+                <div class="water__cards">
+                    <div class="img-box">
+                        <img src="images/scuba.png">
+                        <div class="heart">♡</div>
+                    </div>
+
+                    <span class="location">Rhodes</span>
+
+                    <h4>(Full day) Scuba Diving in Rhodes</h4>
+
+                    <div class="rating">
+                        4.8 <span>●●●●●</span> (320)
+                    </div>
+
+                    <div class="price">from ₹7,200 per person</div>
+                </div>
+
+
+                <div class="water__cards">
+                    <div class="img-box">
+                        <img src="images/curise.png">
+                        <div class="heart">♡</div>
+                    </div>
+
+                    <span class="location">Hanoi</span>
+
+                    <h4>
+                        Ha Long Bay 5-Star Day Cruise with Buffet, Kayaking,
+                        and Swimming
+                    </h4>
+
+                    <div class="rating">
+                        4.9 <span>●●●●●</span> (1,200)
+                    </div>
+
+                    <div class="price">from ₹9,500 per adult</div>
+                </div>
+
+
+                <div class="water__cards">
+                    <div class="img-box">
+                        <img src="images/backwater.png">
+                        <div class="heart">♡</div>
+                    </div>
+
+                    <span class="location">Marco Island</span>
+
+                    <h4>
+                        Backwater Adventure's CraigCat Tours of the 10,000 Islands
+                    </h4>
+
+                    <div class="rating">
+                        4.7 <span>●●●●●</span> (540)
+                    </div>
+
+                    <div class="price">from ₹6,800 per adult</div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <div class="iconic-section">
+        <h3>Iconic places you need to see</h3>
+
+        <div class="iconic__row">
+
+            <div class="iconic__card">
+                <div class="img-box">
+                    <img src="images/vinice.png" alt="">
+                    <h1>Venice, Italy</h1>
+                </div>
+            </div>
+
+            <div class="iconic__card">
+                <div class="img-box">
+                    <img src="images/ushaia.png" alt="">
+                    <h1>Ushuaia, Argentina</h1>
+                </div>
+            </div>
+
+            <div class="iconic__card">
+                <div class="img-box">
+                    <img src="images/las vegas.png" alt="">
+                    <h1>Las Vegas, USA</h1>
+                </div>
+            </div>
+
+            <div class="iconic__card">
+                <div class="img-box">
+                    <img src="images/london.png" alt="">
+                    <h1>London, UK</h1>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="blackbox-section">
+
+        <div class="blackbox__text">
+            <img src="images/award2026.png" class="badge-left">
+
+            <h1>Travellers' Choice Awards Best of the Best</h1>
+
+            <h3>Among our top 1% of places, stays, eats, and experiences—decided by you.</h3>
+
+            <button>See the Winners</button>
+        </div>
+
+
+        <div class="blackbox-cards">
+            <img src="images/blackbox.png" class="main-img">
+            <img src="images/award2026.png" class="badge-overlay">
+        </div>
+
+    </div>
+
+    <div class="footer-section">
+
+        <div class="footer-columns">
+
+            <div class="footer__column">
+                <h4>About Tripadvisor</h4>
+                <p>About Us</p>
+                <p>Press</p>
+                <p>Resources and Policies</p>
+                <p>Careers</p>
+                <p>Trust & Safety</p>
+                <p>Contact us</p>
+                <p>Tripadvisor Technology Blog</p>
+            </div>
+
+            <div class="footer__column">
+                <h4>Explore</h4>
+                <p>Write a review</p>
+                <p>Add a Place</p>
+                <p>Join</p>
+                <p>Travellers' Choice</p>
+                <p>Help Centre</p>
+                <p>Travel Stories</p>
+            </div>
+
+            <div class="footer__column">
+                <h4>Do Business With Us</h4>
+                <p>Owners & DMO/CVB</p>
+                <p>Business Advantage</p>
+                <p>Sponsored Placements</p>
+                <p>Advertise with Us</p>
+                <p>Access our Content API</p>
+
+                <h4 class="mt">Get The App</h4>
+                <p>iPhone App</p>
+                <p>Android App</p>
+            </div>
+
+            <div class="footer__column">
+                <h4>Tripadvisor Sites</h4>
+                <p>Book tours and attraction tickets on <span class="link">Viator</span></p>
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <div class="footer-left">
+                <p>© 2026 Practice project by the site author — not affiliated with Tripadvisor, Inc. Built for educational purposes only.</p>
+
+                <div class="footer-links">
+                    <span>Terms of Use</span>
+                    <span>Privacy and Cookies Statement</span>
+                    <span>Cookie consent</span>
+                    <span>How the site works</span>
+                    <span>Contact us</span>
+                    <span>Accessibility Statement</span>
+                </div>
+
+                <p class="desc">
+                    This page is a UI clone built for practice and portfolio purposes only.
+                </p>
+            </div>
+
+            <div class="footer-right">
+
+
+                <div class="selectors">
+                    <select>
+                        <option>₹ INR</option>
+                    </select>
+
+                    <select>
+                        <option>India</option>
+                    </select>
+                </div>
+
+
+                <div class="social-icons">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <i class="fa-brands fa-pinterest-p"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-tiktok"></i>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
